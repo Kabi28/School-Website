@@ -1,0 +1,241 @@
+body{
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+}
+nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 35%;
+    margin-top: 1.1%;
+    
+}
+header img{
+    width: 10%;
+    display: inline-block;
+}
+header{
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-size: smaller;
+    
+}
+#home{
+    background-color: orangered;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: white;
+}
+/* .nav-content:hover{
+    background-color: orangered;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: white; 
+    
+}
+    */
+.landing-section{
+
+    width: 100%;
+    padding: 12px;
+
+
+}
+.image{
+    display: inline-block;
+    width: 54%;
+   
+}
+.content{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding: 5% 0 0 8%;
+    
+}
+.content h1{
+    font-size: 3.5rem;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.content img{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.skating-page{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.skating-page h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.box-wrap{
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+
+    color: white;
+    
+}
+.box{
+    display: inline-block;
+    justify-content: center;
+    width: 250px;
+    background-color:#f0390f;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 30px;
+    
+    
+}
+.box img{
+    margin: auto;
+    margin-bottom: 10px;
+}
+#center{
+    background-color: #3e0bce;
+}
+.box h3{
+    margin-bottom: 10px;
+}
+.box p{
+    font-size: smaller;
+    line-height: 2;
+}
+
+.read{
+    padding-top: 20px;
+    text-align: left;
+    font-size: larger;
+    font-weight: 600;
+}
+.about{
+    width: 100%;
+    background-image: url("image/about_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.about-content{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding: 200px 0 0 160px;
+}
+.about-content h1{
+    margin-bottom: 1rem;
+    font-size: 38px;
+    color: white;
+}
+.about-img{
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+
+    
+}
+.about-img img{
+    display: inline-block;
+    width: 95%;
+    margin-top: 20%;
+    
+}
+.about-content p{
+    color: white;
+    font-size: smaller;
+    line-height: 2;
+}
+@media (max-width:575px) {
+    html{
+        width: 100%;
+    }
+    header nav{
+        display: none;
+
+    }
+    .box-wrap{
+        width: 100%;
+       
+        text-align: center;
+        padding: 0;
+        justify-content: center;
+
+    }
+    header{
+        width: 100%;
+        text-align: center;
+    }
+    .landing-section,.skating-page{
+        display: block;   
+    }
+    .box{
+        width: 300px;
+        margin: 20px;
+        position: relative;
+        right: 5%;
+    
+    }
+    .skating-page h1 {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+    .skating-page p {
+        width: 90%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .skating-page image{
+        display: block;
+    }
+    .header img{
+        width: 40%;
+    }
+
+    .about{
+        width: 100%;
+    }
+    .content{
+        width: 90%;
+        margin: auto;
+        padding-left: 20%;
+
+    }
+    .image{
+        width: 100%;
+        padding: 10%;
+    }
+    header img{
+        width: 30%;
+    }
+    .about-content{
+        width: 90%;
+        margin: auto;
+        padding: 10%;
+    }
+    .about-img{
+        width: 90%;
+        margin: auto;
+        
+    }
+    .about-content p{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .about-content h1{
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+}
